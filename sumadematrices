@@ -1,0 +1,45 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main(){
+ int matriz1[3][3],matriz2[3][3],suma[3][3],x=0,y=0;
+ printf("Ingrese datos de matriz 1");
+ for(x=0;x<3;x++){
+  for(y=0;y<3;y++){
+   printf(" [%d][%d]:",x,y);
+   scanf("%d",&matriz1[x][y]);
+  }
+ }
+ system("cls");
+ printf("Ingrese datos de matriz 2");
+ for(x=0;x<3;x++){
+  for(y=0;y<3;y++){
+   printf(" [%d][%d]:",x,y);
+   scanf("%d",&matriz2[x][y]);
+   suma[x][y]=matriz1[x][y]+matriz2[x][y];
+  }
+ }
+ system("cls");
+ printf("\n\n Matriz 1\n");
+ for(x=0;x<3;x++){
+  for(y=0;y<3;y++){
+   printf("%d\t",matriz1[x][y]);
+  }
+   printf("\n");
+ }
+ printf("\n\n Matriz 2\n");
+ for(x=0;x<3;x++){
+  for(y=0;y<3;y++){
+   printf("%d\t",matriz2[x][y]);
+  }
+   printf("\n");
+ }
+ printf("\n\n suma de matrices\n");
+ for(x=0;x<3;x++){
+  for(y=0;y<3;y++){
+   printf("%d\t",suma[x][y]);
+  }
+   printf("\n");
+ }
+ system("pause");
+ return 0;
+}
