@@ -1,1 +1,3 @@
-##Ejercicios de cursada de práctica de C. Programación y laboratorio###
+Bienvenido!!!
+En este repositorio estaré subiendo continuamente mis trabajos realizados en el transcurso de mi carrera.
+
